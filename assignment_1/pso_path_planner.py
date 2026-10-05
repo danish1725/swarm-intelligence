@@ -90,7 +90,7 @@ def calculate_fitness(particle):
 # ==========================================
 # 4. MAIN PSO LOOP
 # ==========================================
-"""for iteration in range(ITERATIONS):
+for iteration in range(ITERATIONS):
     for i in range(NUM_PARTICLES):
         fitness = calculate_fitness(particles[i])
         
@@ -146,4 +146,3 @@ plt.title(f"PSO Path Planning (Seed: {ROLL_NUMBER})")
 plt.legend(loc='upper right')
 plt.gca().invert_yaxis() # Match standard grid/matrix visualization
 plt.show() 
-""""
